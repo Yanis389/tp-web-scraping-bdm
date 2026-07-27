@@ -18,3 +18,7 @@ articles.db
 # Fichiers système
 .DS_Store
 
+inspect_card.py
+sujet_tp.pdf
+test.csv
+test.db
