@@ -1,24 +1,21 @@
-### 3. Fichier `.gitignore`
-Ce fichier est crucial pour empêcher Git d'envoyer ta base de données ou ton environnement virtuel sur Internet.
-
-# Environnement Python
+# Environnements virtuels
 .venv/
 venv/
-__pycache__/
+env/
 
-# Fichiers de données (à générer localement)
-articles.csv.venv/
+# Cache Python
 __pycache__/
 *.pyc
-debug_page1.html
-test.csv
-test.db
-articles.db
+*.pyo
+*.pyd
 
-# Fichiers système
+# Fichiers système macOS
 .DS_Store
 
-inspect_card.py
-sujet_tp.pdf
+# Fichiers temporaires de tests et débogage
 test.csv
 test.db
+debug_page1.html
+*.log
+inspect_card.py
+sujet_tp.pdf
