@@ -1,0 +1,25 @@
+[
+  {
+    "nom_specialite": "Dr Delphine MIOULET",
+    "adresse": "Adresse non spécifiée",
+    "type_consultation": [
+      "Cabinet / Téléconsultation"
+    ],
+    "prochains_creneaux": [
+      "PAGE PRÉCÉDENTE",
+      "AFFICHER LA CARTE"
+    ],
+    "url_fiche": "https://www.doctolib.fr/cardiologue/lyon/delphine-mioulet?pid=practice-754412&phs=true&page=1"
+  },
+  {
+    "nom_specialite": "Praticien non nommé",
+    "adresse": "Adresse non spécifiée",
+    "type_consultation": [
+      "Cabinet / Téléconsultation"
+    ],
+    "prochains_creneaux": [
+      "Consulter la fiche"
+    ],
+    "url_fiche": "https://www.doctolib.fr/cardiologue"
+  }
+]
