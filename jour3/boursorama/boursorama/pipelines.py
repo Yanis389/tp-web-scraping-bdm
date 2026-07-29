@@ -1,0 +1,38 @@
+import sqlite3
+from itemadapter import ItemAdapter
+
+DDL = """
+CREATE TABLE IF NOT EXISTS actions (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    libelle TEXT NOT NULL,
+    cours REAL,
+    variation REAL,
+    volume INTEGER,
+    isin TEXT UNIQUE,
+    scraped_at TEXT DEFAULT CURRENT_TIMESTAMP
+);
+"""
+
+class SQLitePipeline:
+    def open_spider(self, spider):
+        self.cx = sqlite3.connect("bourse.db")
+        self.cx.execute(DDL)
+        self.cx.commit()
+
+    def process_item(self, item, spider):
+        adapter = ItemAdapter(item)
+        try:
+            self.cx.execute(
+                "INSERT OR IGNORE INTO actions (libelle, cours, variation, volume, isin) "
+                "VALUES (:libelle, :cours, :variation, :volume, :isin)",
+                dict(adapter)
+            )
+            self.cx.commit()
+        except sqlite3.Error as e:
+            spider.logger.error(f"SQLite error: {e}")
+        return item
+
+    def close_spider(self, spider):
+        count = self.cx.execute("SELECT COUNT(*) FROM actions").fetchone()[0]
+        spider.logger.info(f"BDD SQLite : {count} actions enregistrées")
+        self.cx.close()
