@@ -1,0 +1,102 @@
+[
+  {
+    "titre": "A Light in the Attic",
+    "prix": 51.77,
+    "disponibilite": "In stock"
+  },
+  {
+    "titre": "Tipping the Velvet",
+    "prix": 53.74,
+    "disponibilite": "In stock"
+  },
+  {
+    "titre": "Soumission",
+    "prix": 50.1,
+    "disponibilite": "In stock"
+  },
+  {
+    "titre": "Sharp Objects",
+    "prix": 47.82,
+    "disponibilite": "In stock"
+  },
+  {
+    "titre": "Sapiens: A Brief History of Humankind",
+    "prix": 54.23,
+    "disponibilite": "In stock"
+  },
+  {
+    "titre": "The Requiem Red",
+    "prix": 22.65,
+    "disponibilite": "In stock"
+  },
+  {
+    "titre": "The Dirty Little Secrets of Getting Your Dream Job",
+    "prix": 33.34,
+    "disponibilite": "In stock"
+  },
+  {
+    "titre": "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull",
+    "prix": 17.93,
+    "disponibilite": "In stock"
+  },
+  {
+    "titre": "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics",
+    "prix": 22.6,
+    "disponibilite": "In stock"
+  },
+  {
+    "titre": "The Black Maria",
+    "prix": 52.15,
+    "disponibilite": "In stock"
+  },
+  {
+    "titre": "Starving Hearts (Triangular Trade Trilogy, #1)",
+    "prix": 13.99,
+    "disponibilite": "In stock"
+  },
+  {
+    "titre": "Shakespeare's Sonnets",
+    "prix": 20.66,
+    "disponibilite": "In stock"
+  },
+  {
+    "titre": "Set Me Free",
+    "prix": 17.46,
+    "disponibilite": "In stock"
+  },
+  {
+    "titre": "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)",
+    "prix": 52.29,
+    "disponibilite": "In stock"
+  },
+  {
+    "titre": "Rip it Up and Start Again",
+    "prix": 35.02,
+    "disponibilite": "In stock"
+  },
+  {
+    "titre": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
+    "prix": 57.25,
+    "disponibilite": "In stock"
+  },
+  {
+    "titre": "Olio",
+    "prix": 23.88,
+    "disponibilite": "In stock"
+  },
+  {
+    "titre": "Mesaerion: The Best Science Fiction Stories 1800-1849",
+    "prix": 37.59,
+    "disponibilite": "In stock"
+  },
+  {
+    "titre": "Libertarianism for Beginners",
+    "prix": 51.33,
+    "disponibilite": "In stock"
+  },
+  {
+    "titre": "It's Only the Himalayas",
+    "prix": 45.17,
+    "disponibilite": "In stock"
+  }
+]
